@@ -1,0 +1,12 @@
+如何在利用anconda安装dlib库
+
+首先，dlib库目前只能支持Python3.5，Python3.6的环境安装会发生冲突
+
+#创建Python3.5的环境
+1、conda create --name python3 python=3.5
+
+#激活
+2、activate python3
+
+#安装dlib
+conda install dlib
